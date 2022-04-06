@@ -1,0 +1,92 @@
+body{
+    background-color: #000000;
+
+}
+
+figure.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 150px;
+    color: #ffffff;
+    font-size: 24pt;
+}
+main.boxMain{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+div.User1{
+    background: url(imagemFlix/avatar1.png) no-repeat;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #ffffff;
+}
+div.User2{
+    background: url(imagemFlix/avatar2.png) no-repeat;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #ffffff;
+}
+div.User3{
+    background: url(imagemFlix/avatar3.png) no-repeat;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #ffffff;
+}
+div.User4{
+    background: url(imagemFlix/Frame\ 5.png) no-repeat;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #ffffff;
+}
+.User1:hover{
+    transform: scale(1.1);
+    width: 150px;
+    height: 140px;
+}
+.User2:hover{
+    transform: scale(1.1);
+    width: 150px;
+    height: 140px;
+}
+.User3:hover{
+    transform: scale(1.1);
+    width: 150px;
+    height: 140px;
+}
+.User4:hover{
+   opacity: 0.5;
+}
+button{
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    margin-top: 80px;
+    font-size: 20pt;
+    background-color:#000000;
+    color: white;
+    border: 1px solid white;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+p{
+    font-weight: 700;
+    padding: 20px; 
+    margin-top: -15px;
+    margin-left: 70px;
+    color: #ffffff;
+}
